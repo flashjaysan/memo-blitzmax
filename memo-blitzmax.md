@@ -399,7 +399,7 @@ Global Image:Timage = LoadImage("NomImage.bmp")
 
 ### Afficher une image
 
-Utiliser la fonction `DrawImage` pour afficher une image de type `Timage`.
+Utilisez la fonction `DrawImage` pour afficher une image de type `Timage`.
 
 ```
 DrawImage(Image, X, Y)
