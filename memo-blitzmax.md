@@ -310,10 +310,10 @@ Le coin supérieur gauche correspond à l'origine du repère. L'axe vertical aug
 
 ### Définir la taille de la fenêtre
 
-Utilisez la fonction `Graphics` (en dehors de la boucle principale) pour définir la largeur et la hauteur de la vue et si la vue doit être en plein écran ou non.
+Utilisez la fonction `Graphics` (en dehors de la boucle principale) pour définir la largeur et la hauteur de la vue et si la vue doit être en plein écran (rien) ou non (`0`).
 
 ```
-Graphics 640, 360, True
+Graphics 640, 360, 0 ' résolution 640x360 en mode fenêtré
 ```
 
 ### Créer la boucle principale
@@ -404,3 +404,47 @@ Utiliser la fonction `DrawImage` pour afficher une image de type `Timage`.
 ```
 DrawImage(Image, X, Y)
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
